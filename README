@@ -1,0 +1,8 @@
+please follow this guide
+
+mkdir ~/openwrt
+cd ~/openwrt
+git clone https://github.com/sancome/openwrt-scripts.git
+cd ./openwrt-scripts
+./build-openwrt.sh
+./build-plus.sh
