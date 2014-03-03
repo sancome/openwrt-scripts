@@ -12,15 +12,8 @@ cp -rf ./openwrt-plus/package/* ./barrier_breaker/package/
 patch -p0 ./barrier_breaker/package/libs/openssl/Makefile < ./barrier_breaker/package/libs/openssl/Makefile.diff
 rm -rf ./barrier_breaker/package/libs/openssl/Makefile.diff
 
-#remove old packages
-rm -rf ./barrier_breaker/feeds/packages/multimedia/gst-plugins-bad
-rm -rf ./barrier_breaker/feeds/packages/multimedia/gst-plugins-base
-rm -rf ./barrier_breaker/feeds/packages/multimedia/gst-plugins-good
-rm -rf ./barrier_breaker/feeds/packages/multimedia/gst-plugins-ugly
-rm -rf ./barrier_breaker/feeds/packages/multimedia/gstreamer
-
 #copy new packages
-cp -rf ./openwrt-plus/feeds/* ./barrier_breaker/feeds/
+cp -rf ./openwrt-plus/feeds/luci/* ./barrier_breaker/feeds/luci/
 
 #patch luci
 patch -p0 ./barrier_breaker/feeds/luci/contrib/package/luci/Makefile < ./barrier_breaker/feeds/luci/contrib/package/luci/Makefile.diff
