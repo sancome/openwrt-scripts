@@ -2131,7 +2131,7 @@ CONFIG_PACKAGE_libmnl=y
 # CONFIG_PACKAGE_libmpcdec is not set
 # CONFIG_PACKAGE_libmpd is not set
 # CONFIG_PACKAGE_libmpdclient is not set
-CONFIG_PACKAGE_libmpeg2=y
+# CONFIG_PACKAGE_libmpeg2 is not set
 # CONFIG_PACKAGE_libmysqlclient is not set
 # CONFIG_PACKAGE_libmysqlclient-r is not set
 # CONFIG_PACKAGE_libnatpmp is not set
@@ -2474,11 +2474,11 @@ CONFIG_PACKAGE_gmediarender=y
 # CONFIG_PACKAGE_gst-mod-aiff is not set
 CONFIG_PACKAGE_gst-mod-alsa=y
 CONFIG_PACKAGE_gst-mod-app=y
-CONFIG_PACKAGE_gst-mod-asf=y
+# CONFIG_PACKAGE_gst-mod-asf is not set
 # CONFIG_PACKAGE_gst-mod-asfmux is not set
 CONFIG_PACKAGE_gst-mod-audioconvert=y
-CONFIG_PACKAGE_gst-mod-audiofx=y
-CONFIG_PACKAGE_gst-mod-audioparsers=y
+# CONFIG_PACKAGE_gst-mod-audiofx is not set
+# CONFIG_PACKAGE_gst-mod-audioparsers is not set
 CONFIG_PACKAGE_gst-mod-audiorate=y
 CONFIG_PACKAGE_gst-mod-audioresample=y
 CONFIG_PACKAGE_gst-mod-audiotestsrc=y
@@ -2487,16 +2487,16 @@ CONFIG_PACKAGE_gst-mod-autodetect=y
 # CONFIG_PACKAGE_gst-mod-bayer is not set
 # CONFIG_PACKAGE_gst-mod-camerabin is not set
 # CONFIG_PACKAGE_gst-mod-cdxaparse is not set
-CONFIG_PACKAGE_gst-mod-cutter=y
+# CONFIG_PACKAGE_gst-mod-cutter is not set
 # CONFIG_PACKAGE_gst-mod-dataurisrc is not set
 # CONFIG_PACKAGE_gst-mod-dccp is not set
-CONFIG_PACKAGE_gst-mod-debug=y
+# CONFIG_PACKAGE_gst-mod-debug is not set
 # CONFIG_PACKAGE_gst-mod-debugutilsbad is not set
 CONFIG_PACKAGE_gst-mod-decodebin=y
 CONFIG_PACKAGE_gst-mod-decodebin2=y
-CONFIG_PACKAGE_gst-mod-dtmf=y
+# CONFIG_PACKAGE_gst-mod-dtmf is not set
 # CONFIG_PACKAGE_gst-mod-dvdspu is not set
-CONFIG_PACKAGE_gst-mod-equalizer=y
+# CONFIG_PACKAGE_gst-mod-equalizer is not set
 # CONFIG_PACKAGE_gst-mod-faad is not set
 # CONFIG_PACKAGE_gst-mod-festival is not set
 CONFIG_PACKAGE_gst-mod-flac=y
@@ -2505,45 +2505,45 @@ CONFIG_PACKAGE_gst-mod-flac=y
 CONFIG_PACKAGE_gst-mod-gio=y
 # CONFIG_PACKAGE_gst-mod-h264parse is not set
 # CONFIG_PACKAGE_gst-mod-hdvparse is not set
-CONFIG_PACKAGE_gst-mod-icydemux=y
+# CONFIG_PACKAGE_gst-mod-icydemux is not set
 CONFIG_PACKAGE_gst-mod-id3demux=y
 # CONFIG_PACKAGE_gst-mod-id3tag is not set
-CONFIG_PACKAGE_gst-mod-interleave=y
-CONFIG_PACKAGE_gst-mod-isomp4=y
+# CONFIG_PACKAGE_gst-mod-interleave is not set
+# CONFIG_PACKAGE_gst-mod-isomp4 is not set
 # CONFIG_PACKAGE_gst-mod-jpegformat is not set
-CONFIG_PACKAGE_gst-mod-lame=y
+# CONFIG_PACKAGE_gst-mod-lame is not set
 # CONFIG_PACKAGE_gst-mod-legacyresample is not set
-CONFIG_PACKAGE_gst-mod-level=y
+# CONFIG_PACKAGE_gst-mod-level is not set
 # CONFIG_PACKAGE_gst-mod-liveadder is not set
 CONFIG_PACKAGE_gst-mod-mad=y
 # CONFIG_PACKAGE_gst-mod-mms is not set
-CONFIG_PACKAGE_gst-mod-mpeg2dec=y
+# CONFIG_PACKAGE_gst-mod-mpeg2dec is not set
 # CONFIG_PACKAGE_gst-mod-mpegdemux is not set
 # CONFIG_PACKAGE_gst-mod-mpegpsmux is not set
 # CONFIG_PACKAGE_gst-mod-mpegtsmux is not set
 # CONFIG_PACKAGE_gst-mod-mpegvideoparse is not set
-CONFIG_PACKAGE_gst-mod-multifile=y
-CONFIG_PACKAGE_gst-mod-multipart=y
+# CONFIG_PACKAGE_gst-mod-multifile is not set
+# CONFIG_PACKAGE_gst-mod-multipart is not set
 # CONFIG_PACKAGE_gst-mod-mve is not set
 # CONFIG_PACKAGE_gst-mod-mxf is not set
 # CONFIG_PACKAGE_gst-mod-nsf is not set
 # CONFIG_PACKAGE_gst-mod-nuvdemux is not set
 CONFIG_PACKAGE_gst-mod-ogg=y
-CONFIG_PACKAGE_gst-mod-ossaudio=y
+# CONFIG_PACKAGE_gst-mod-ossaudio is not set
 # CONFIG_PACKAGE_gst-mod-pcapparse is not set
 CONFIG_PACKAGE_gst-mod-playbin=y
 # CONFIG_PACKAGE_gst-mod-pnm is not set
 # CONFIG_PACKAGE_gst-mod-rawparse is not set
-CONFIG_PACKAGE_gst-mod-replaygain=y
-CONFIG_PACKAGE_gst-mod-rtp=y
+# CONFIG_PACKAGE_gst-mod-replaygain is not set
+# CONFIG_PACKAGE_gst-mod-rtp is not set
 # CONFIG_PACKAGE_gst-mod-rtpmux is not set
-CONFIG_PACKAGE_gst-mod-rtsp=y
+# CONFIG_PACKAGE_gst-mod-rtsp is not set
 # CONFIG_PACKAGE_gst-mod-scaletempoplugin is not set
 # CONFIG_PACKAGE_gst-mod-sdpelem is not set
 # CONFIG_PACKAGE_gst-mod-segmentclip is not set
 # CONFIG_PACKAGE_gst-mod-siren is not set
 CONFIG_PACKAGE_gst-mod-souphttpsrc=y
-CONFIG_PACKAGE_gst-mod-spectrum=y
+# CONFIG_PACKAGE_gst-mod-spectrum is not set
 # CONFIG_PACKAGE_gst-mod-speed is not set
 # CONFIG_PACKAGE_gst-mod-stereo is not set
 # CONFIG_PACKAGE_gst-mod-subenc is not set
@@ -2551,19 +2551,19 @@ CONFIG_PACKAGE_gst-mod-tcp=y
 CONFIG_PACKAGE_gst-mod-theora=y
 # CONFIG_PACKAGE_gst-mod-tta is not set
 CONFIG_PACKAGE_gst-mod-typefindfunctions=y
-CONFIG_PACKAGE_gst-mod-udp=y
+# CONFIG_PACKAGE_gst-mod-udp is not set
 # CONFIG_PACKAGE_gst-mod-videomeasure is not set
 # CONFIG_PACKAGE_gst-mod-videosignal is not set
 CONFIG_PACKAGE_gst-mod-videotestsrc=y
 # CONFIG_PACKAGE_gst-mod-vmnc is not set
 CONFIG_PACKAGE_gst-mod-volume=y
 CONFIG_PACKAGE_gst-mod-vorbis=y
-CONFIG_PACKAGE_gst-mod-wavenc=y
+# CONFIG_PACKAGE_gst-mod-wavenc is not set
 CONFIG_PACKAGE_gst-mod-wavparse=y
 # CONFIG_PACKAGE_gst-plugins-bad is not set
 CONFIG_PACKAGE_gst-plugins-base=y
-CONFIG_PACKAGE_gst-plugins-good=y
-CONFIG_PACKAGE_gst-plugins-ugly=y
+# CONFIG_PACKAGE_gst-plugins-good is not set
+# CONFIG_PACKAGE_gst-plugins-ugly is not set
 CONFIG_PACKAGE_gstreamer=y
 # CONFIG_PACKAGE_gstreamer-utils is not set
 # CONFIG_PACKAGE_hasciicam is not set
@@ -2606,6 +2606,7 @@ CONFIG_PACKAGE_platinum=m
 # CONFIG_PACKAGE_rygel-playbin-gst-suggested is not set
 # CONFIG_PACKAGE_rygel-tracker is not set
 # CONFIG_PACKAGE_shairport is not set
+CONFIG_PACKAGE_shairport-new=y
 # CONFIG_PACKAGE_streamripper is not set
 # CONFIG_PACKAGE_tvheadend is not set
 CONFIG_PACKAGE_upnpaudioplayer=y
@@ -3554,7 +3555,7 @@ CONFIG_PACKAGE_wpad-mini=y
 # CONFIG_PACKAGE_flite is not set
 # CONFIG_PACKAGE_ices is not set
 # CONFIG_PACKAGE_lame is not set
-CONFIG_PACKAGE_lame-lib=y
+# CONFIG_PACKAGE_lame-lib is not set
 # CONFIG_PACKAGE_listener is not set
 # CONFIG_PACKAGE_madplay is not set
 # CONFIG_PACKAGE_mpc is not set
@@ -3565,7 +3566,6 @@ CONFIG_PACKAGE_lame-lib=y
 # CONFIG_PACKAGE_pulseaudio-daemon is not set
 # CONFIG_PACKAGE_pulseaudio-daemon-avahi is not set
 # CONFIG_PACKAGE_scmpc is not set
-CONFIG_PACKAGE_shairport-new=y
 # CONFIG_PACKAGE_shell-fm is not set
 # CONFIG_PACKAGE_sox is not set
 
