@@ -1824,6 +1824,7 @@ CONFIG_PACKAGE_lua=y
 # CONFIG_PACKAGE_cython is not set
 # CONFIG_PACKAGE_dbus-python is not set
 # CONFIG_PACKAGE_distribute is not set
+CONFIG_PACKAGE_gevent=y
 # CONFIG_PACKAGE_gst-python is not set
 # CONFIG_PACKAGE_ipython is not set
 # CONFIG_PACKAGE_libyaml is not set
@@ -1927,11 +1928,6 @@ CONFIG_PACKAGE_libxtables=y
 # CONFIG_PACKAGE_libcupsimage is not set
 # CONFIG_PACKAGE_libcupsmime is not set
 # CONFIG_PACKAGE_libcupsppdc is not set
-
-#
-# Python
-#
-CONFIG_PACKAGE_gevent=y
 
 #
 # SSL
@@ -2315,6 +2311,7 @@ CONFIG_PACKAGE_luci-app-firewall=y
 # CONFIG_PACKAGE_luci-app-freifunk-policyrouting is not set
 # CONFIG_PACKAGE_luci-app-freifunk-widgets is not set
 CONFIG_PACKAGE_luci-app-gmediarender=y
+CONFIG_PACKAGE_luci-app-goagent=y
 # CONFIG_PACKAGE_luci-app-hd-idle is not set
 # CONFIG_PACKAGE_luci-app-ltqtapi is not set
 # CONFIG_PACKAGE_luci-app-meshwizard is not set
@@ -3344,11 +3341,13 @@ CONFIG_PACKAGE_etherwake=y
 # CONFIG_PACKAGE_fping is not set
 # CONFIG_PACKAGE_fprobe is not set
 # CONFIG_PACKAGE_fprobe-ulog is not set
-# CONFIG_PACKAGE_freeradius2 is not set
 # CONFIG_PACKAGE_genl is not set
+CONFIG_PACKAGE_goagent=y
 # CONFIG_PACKAGE_gpsd is not set
 # CONFIG_PACKAGE_gpsd-clients is not set
 # CONFIG_PACKAGE_gw6c is not set
+# CONFIG_PACKAGE_hnet-full is not set
+# CONFIG_PACKAGE_hnetd is not set
 # CONFIG_PACKAGE_hostapd is not set
 CONFIG_PACKAGE_hostapd-common=y
 # CONFIG_PACKAGE_hostapd-common-old is not set
