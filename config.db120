@@ -12,9 +12,9 @@ CONFIG_HAVE_DOT_CONFIG=y
 # CONFIG_TARGET_at91 is not set
 # CONFIG_TARGET_avr32 is not set
 # CONFIG_TARGET_brcm2708 is not set
+# CONFIG_TARGET_brcm47xx is not set
 # CONFIG_TARGET_bcm53xx is not set
 CONFIG_TARGET_brcm63xx=y
-# CONFIG_TARGET_brcm47xx is not set
 # CONFIG_TARGET_cns21xx is not set
 # CONFIG_TARGET_cns3xxx is not set
 # CONFIG_TARGET_octeon is not set
@@ -68,6 +68,7 @@ CONFIG_DEFAULT_dropbear=y
 CONFIG_DEFAULT_firewall=y
 CONFIG_DEFAULT_ip6tables=y
 CONFIG_DEFAULT_iptables=y
+CONFIG_DEFAULT_iwinfo=y
 CONFIG_DEFAULT_kmod-b43=y
 CONFIG_DEFAULT_kmod-button-hotplug=y
 CONFIG_DEFAULT_kmod-input-gpio-keys-polled=y
@@ -2774,6 +2775,13 @@ CONFIG_PACKAGE_iptables-mod-nat-extra=y
 # CONFIG_PACKAGE_ptunnel is not set
 
 #
+# FreeRADIUS (version 2)
+#
+# CONFIG_PACKAGE_freeradius2 is not set
+# CONFIG_PACKAGE_freeradius2-common is not set
+# CONFIG_PACKAGE_freeradius2-utils is not set
+
+#
 # IP Addresses and Names
 #
 # CONFIG_PACKAGE_avahi-autoipd is not set
@@ -2968,8 +2976,10 @@ CONFIG_PACKAGE_ddns-scripts=y
 # CONFIG_PACKAGE_birdc4 is not set
 # CONFIG_PACKAGE_birdc6 is not set
 # CONFIG_PACKAGE_bmx6 is not set
+# CONFIG_PACKAGE_genl is not set
 CONFIG_PACKAGE_igmpproxy=m
 # CONFIG_PACKAGE_ip is not set
+# CONFIG_PACKAGE_ip-full is not set
 # CONFIG_PACKAGE_lldpd is not set
 # CONFIG_PACKAGE_net-tools-route is not set
 # CONFIG_PACKAGE_olsrd is not set
@@ -2979,7 +2989,9 @@ CONFIG_PACKAGE_igmpproxy=m
 # CONFIG_PACKAGE_relayd is not set
 # CONFIG_PACKAGE_rinetd is not set
 # CONFIG_PACKAGE_smcroute is not set
+# CONFIG_PACKAGE_ss is not set
 # CONFIG_PACKAGE_sslh is not set
+# CONFIG_PACKAGE_tc is not set
 # CONFIG_PACKAGE_udp-broadcast-relay is not set
 # CONFIG_PACKAGE_vis is not set
 # CONFIG_PACKAGE_vrrpd is not set
@@ -3341,7 +3353,6 @@ CONFIG_PACKAGE_etherwake=y
 # CONFIG_PACKAGE_fping is not set
 # CONFIG_PACKAGE_fprobe is not set
 # CONFIG_PACKAGE_fprobe-ulog is not set
-# CONFIG_PACKAGE_genl is not set
 CONFIG_PACKAGE_goagent=y
 # CONFIG_PACKAGE_gpsd is not set
 # CONFIG_PACKAGE_gpsd-clients is not set
@@ -3480,7 +3491,6 @@ CONFIG_PACKAGE_shadowsocks-libev=y
 # CONFIG_PACKAGE_socat is not set
 # CONFIG_PACKAGE_softflowd is not set
 # CONFIG_PACKAGE_soloscli is not set
-# CONFIG_PACKAGE_ss is not set
 # CONFIG_PACKAGE_sscep is not set
 # CONFIG_PACKAGE_sslcat is not set
 # CONFIG_PACKAGE_sslsniff is not set
@@ -3490,7 +3500,6 @@ CONFIG_PACKAGE_shadowsocks-libev=y
 # CONFIG_PACKAGE_stunnel is not set
 # CONFIG_PACKAGE_synce-dccm is not set
 # CONFIG_PACKAGE_tayga is not set
-# CONFIG_PACKAGE_tc is not set
 CONFIG_PACKAGE_tcpdump=m
 # CONFIG_PACKAGE_tcpdump-mini is not set
 # CONFIG_PACKAGE_tcptraceroute is not set
